@@ -60,7 +60,7 @@ Esta API foi criada para ser consumida pelo projeto front-end.
 Abaixo, uma prévia da aplicação React consumindo os dados desta API:
 
 <div align="center">
-  <img src="https://github.com/Elociny/to-do-list/blob/main/src/images/screenshots/app.gif?raw=true" alt="Frontend consumindo API" />
+  <img src="https://github.com/Elociny/to-do-list/blob/main/src/images/screenshots/application.gif?raw=true" alt="Frontend consumindo API" />
 </div>
 
 ---
