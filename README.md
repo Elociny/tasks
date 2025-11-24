@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=java" alt="Java 21">
     <img src="https://img.shields.io/badge/Spring_Boot-3.0-green?style=for-the-badge&logo=spring-boot" alt="Spring Boot">
     <img src="https://img.shields.io/badge/H2_Database-Enabled-blue?style=for-the-badge" alt="H2">
+    <img src="https://img.shields.io/badge/Swagger-UI-brightgreen?style=for-the-badge&logo=swagger" alt="Swagger">
     <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
   </div>
 
@@ -24,6 +25,7 @@
 * **Java 21**
 * **Spring Boot 3**
 * **Spring Data JPA**
+* **SpringDoc OpenAPI** (Documentação via Swagger)
 * **H2 Database** (Banco em memória para desenvolvimento rápido)
 * **Lombok** (Redução de boilerplate code)
 * **Maven** (Gerenciamento de dependências)
@@ -96,7 +98,14 @@ Abaixo, uma prévia da aplicação React consumindo os dados desta API:
 
 ## 🔌 Documentação da API (Endpoints)
 
-Aqui estão as rotas disponíveis para teste no Postman ou Insomnia.
+### 📖 Swagger UI (Interativo)
+O projeto conta com documentação automática via **OpenAPI**. Com a aplicação rodando, você pode testar todas as rotas visualmente, ver os modelos de dados e executar requisições sem precisar instalar o Postman.
+
+👉 **Acesse:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+---
+
+### 📋 Rotas Disponíveis
 
 | Método | Rota | Descrição |
 | :--- | :--- | :--- |
@@ -104,6 +113,8 @@ Aqui estão as rotas disponíveis para teste no Postman ou Insomnia.
 | **POST** | `/tarefas` | Cria uma nova tarefa. |
 | **PUT** | `/tarefas/{id}` | Atualiza os dados de uma tarefa existente. |
 | **DELETE** | `/tarefas/{id}` | Exclui uma tarefa pelo ID. |
+
+---
 
 ### 📝 Exemplo de JSON (Corpo da Requisição)
 
